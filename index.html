@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZENG - Laboratorio Microbiológico</title>
+    <link rel="stylesheet" href="pagina_inicio.css">
+</head>
+<body>
+    <!-- Partículas de fondo -->
+    <div class="particles" id="particles"></div>
+
+    <!-- Header con navegación -->
+    <header class="header">
+        <nav class="nav">
+            <div class="logo">
+                <div class="logo-icon">
+                    <svg viewBox="0 0 50 50" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="25" cy="25" r="20" fill="none" stroke="currentColor" stroke-width="2"/>
+                        <circle cx="25" cy="25" r="12" fill="none" stroke="currentColor" stroke-width="2"/>
+                        <circle cx="25" cy="25" r="6" fill="currentColor"/>
+                    </svg>
+                </div>
+                <span class="logo-text">ZENG</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#inicio" class="nav-link active">Inicio</a></li>
+                <li><a href="#servicios" class="nav-link">Servicios</a></li>
+                <li><a href="#areas" class="nav-link">Áreas</a></li>
+                <li><a href="#nosotros" class="nav-link">Nosotros</a></li>
+                <li><a href="#contacto" class="nav-link">Contacto</a></li>
+            </ul>
+            <button class="menu-toggle" id="menuToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="inicio">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1 class="hero-title">
+                    <span class="title-line">Laboratorio</span>
+                    <span class="title-line">Microbiológico</span>
+                    <span class="title-highlight">De Excelencia</span>
+                </h1>
+                <p class="hero-subtitle">
+                    Contamos con un equipo de profesionales altamente calificado,
+                    buscando el mejoramiento continuo en cada actividad que desarrollamos.
+                </p>
+                <div class="hero-buttons">
+                    <button class="btn btn-primary">
+                        Nuestros Servicios
+                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                            <path d="M4 10h12M10 4l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                        </svg>
+                    </button>
+                    <button class="btn btn-secondary">Contactar</button>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="molecular-structure">
+                    <div class="atom atom-1"></div>
+                    <div class="atom atom-2"></div>
+                    <div class="atom atom-3"></div>
+                    <div class="atom atom-4"></div>
+                    <div class="atom atom-5"></div>
+                    <div class="bond bond-1"></div>
+                    <div class="bond bond-2"></div>
+                    <div class="bond bond-3"></div>
+                    <div class="bond bond-4"></div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <span>Scroll</span>
+            <div class="scroll-line"></div>
+        </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="stats">
+        <div class="container">
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <div class="stat-icon">
+                        <svg viewBox="0 0 50 50" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M25 5L30 20H45L33 28L38 43L25 35L12 43L17 28L5 20H20L25 5Z" fill="currentColor"/>
+                        </svg>
+                    </div>
+                    <div class="stat-number" data-target="15">0</div>
+                    <div class="stat-label">Años de Experiencia</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-icon">
+                        <svg viewBox="0 0 50 50" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="25" cy="15" r="8" fill="currentColor"/>
+                            <path d="M10 45C10 35 16 30 25 30C34 30 40 35 40 45" fill="currentColor"/>
+                        </svg>
+                    </div>
+                    <div class="stat-number" data-target="50">0</div>
+                    <div class="stat-label">Profesionales</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-icon">
+                        <svg viewBox="0 0 50 50" xmlns="http://www.w3.org/2000/svg">
+                            <rect x="10" y="15" width="30" height="25" rx="2" fill="none" stroke="currentColor" stroke-width="2"/>
+                            <path d="M15 15V12C15 10 17 8 25 8C33 8 35 10 35 12V15" fill="none" stroke="currentColor" stroke-width="2"/>
+                        </svg>
+                    </div>
+                    <div class="stat-number" data-target="1000">0</div>
+                    <div class="stat-label">Proyectos Realizados</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-icon">
+                        <svg viewBox="0 0 50 50" xmlns="http://www.w3.org/2000/svg">
+                            <rect x="15" y="10" width="20" height="30" rx="2" fill="none" stroke="currentColor" stroke-width="2"/>
+                            <path d="M20 18H30M20 25H30M20 32H27" stroke="currentColor" stroke-width="2"/>
+                        </svg>
+                    </div>
+                    <div class="stat-number" data-target="100">0</div>
+                    <div class="stat-label">Certificaciones</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Areas Section -->
+    <section class="areas" id="areas">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Especialidades</span>
+                <h2 class="section-title">Áreas de Consultoría</h2>
+                <p class="section-description">
+                    Nuestro laboratorio ha realizado diferentes consultorías en múltiples áreas especializadas
+                </p>
+            </div>
+            <div class="areas-grid">
+                <div class="area-card">
+                    <div class="area-icon">
+                        <svg viewBox="0 0 50 50" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M25 10L15 20L25 30L35 20L25 10Z" fill="currentColor"/>
+                            <path d="M25 30L15 40H35L25 30Z" fill="currentColor" opacity="0.7"/>
+                        </svg>
+                    </div>
+                    <h3 class="area-title">Análisis Microbiológico</h3>
+                    <p class="area-description">Control de calidad y análisis detallado de muestras microbiológicas</p>
+                </div>
+                <div class="area-card">
+                    <div class="area-icon">
+                        <svg viewBox="0 0 50 50" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="25" cy="25" r="15" fill="none" stroke="currentColor" stroke-width="2"/>
+                            <path d="M15 25L22 32L35 18" stroke="currentColor" stroke-width="2" fill="none"/>
+                        </svg>
+                    </div>
+                    <h3 class="area-title">Certificación y Normas</h3>
+                    <p class="area-description">Asesoramiento en certificaciones y cumplimiento normativo</p>
+                </div>
+                <div class="area-card">
+                    <div class="area-icon">
+                        <svg viewBox="0 0 50 50" xmlns="http://www.w3.org/2000/svg">
+                            <rect x="10" y="20" width="30" height="20" rx="2" fill="none" stroke="currentColor" stroke-width="2"/>
+                            <path d="M18 20V15C18 12 20 10 25 10C30 10 32 12 32 15V20" fill="none" stroke="currentColor" stroke-width="2"/>
+                        </svg>
+                    </div>
+                    <h3 class="area-title">Seguridad Alimentaria</h3>
+                    <p class="area-description">Control y garantía de la inocuidad de productos alimenticios</p>
+                </div>
+                <div class="area-card">
+                    <div class="area-icon">
+                        <svg viewBox="0 0 50 50" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="25" cy="20" r="5" fill="currentColor"/>
+                            <path d="M25 25V45M20 35H30M18 42H32" stroke="currentColor" stroke-width="2"/>
+                        </svg>
+                    </div>
+                    <h3 class="area-title">Investigación</h3>
+                    <p class="area-description">Desarrollo de proyectos de investigación científica aplicada</p>
+                </div>
+                <div class="area-card">
+                    <div class="area-icon">
+                        <svg viewBox="0 0 50 50" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M25 8L15 15L25 22L35 15L25 8Z" fill="none" stroke="currentColor" stroke-width="2"/>
+                            <path d="M15 28V35L25 42L35 35V28" fill="none" stroke="currentColor" stroke-width="2"/>
+                        </svg>
+                    </div>
+                    <h3 class="area-title">Medio Ambiente</h3>
+                    <p class="area-description">Análisis ambiental y monitoreo de ecosistemas</p>
+                </div>
+                <div class="area-card">
+                    <div class="area-icon">
+                        <svg viewBox="0 0 50 50" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="25" cy="25" r="12" fill="none" stroke="currentColor" stroke-width="2"/>
+                            <path d="M25 13V25L32 28" stroke="currentColor" stroke-width="2"/>
+                        </svg>
+                    </div>
+                    <h3 class="area-title">Capacitación</h3>
+                    <p class="area-description">Programas de formación y actualización profesional</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta">
+        <div class="container">
+            <div class="cta-content">
+                <h2 class="cta-title">¿Listo para conocer nuestros servicios?</h2>
+                <p class="cta-description">
+                    Contacta con nuestro equipo de profesionales y descubre cómo podemos ayudarte
+                </p>
+                <button class="btn btn-light">
+                    Contactar Ahora
+                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                        <path d="M4 10h12M10 4l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <div class="logo">
+                        <div class="logo-icon">
+                            <svg viewBox="0 0 50 50" xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="25" cy="25" r="20" fill="none" stroke="currentColor" stroke-width="2"/>
+                                <circle cx="25" cy="25" r="12" fill="none" stroke="currentColor" stroke-width="2"/>
+                                <circle cx="25" cy="25" r="6" fill="currentColor"/>
+                            </svg>
+                        </div>
+                        <span class="logo-text">ZENG</span>
+                    </div>
+                    <p class="footer-text">Laboratorio Microbiológico de excelencia</p>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-col">
+                        <h4>Empresa</h4>
+                        <ul>
+                            <li><a href="#nosotros">Nosotros</a></li>
+                            <li><a href="#servicios">Servicios</a></li>
+                            <li><a href="#areas">Áreas</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h4>Contacto</h4>
+                        <ul>
+                            <li><a href="mailto:info@zeng.com.uy">info@zeng.com.uy</a></li>
+                            <li><a href="tel:+59812345678">+598 1234 5678</a></li>
+                            <li>Montevideo, Uruguay</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 ZENG Laboratorio Microbiológico. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="pagina_inicio.js"></script>
+</body>
+</html>
