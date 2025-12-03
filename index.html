@@ -14,14 +14,7 @@
     <header class="header">
         <nav class="nav">
             <div class="logo">
-                <div class="logo-icon">
-                    <svg viewBox="0 0 50 50" xmlns="http://www.w3.org/2000/svg">
-                        <circle cx="25" cy="25" r="20" fill="none" stroke="currentColor" stroke-width="2"/>
-                        <circle cx="25" cy="25" r="12" fill="none" stroke="currentColor" stroke-width="2"/>
-                        <circle cx="25" cy="25" r="6" fill="currentColor"/>
-                    </svg>
-                </div>
-                <span class="logo-text">ZENG</span>
+                <img src="img/zen_laboratorio_microbiologico-1.png" alt="ZENG Laboratorio Microbiológico" class="logo-img">
             </div>
             <ul class="nav-menu">
                 <li><a href="#inicio" class="nav-link active">Inicio</a></li>
@@ -40,12 +33,23 @@
 
     <!-- Hero Section -->
     <section class="hero" id="inicio">
+        <div class="hero-background">
+            <div class="hero-shape shape-1"></div>
+            <div class="hero-shape shape-2"></div>
+            <div class="hero-shape shape-3"></div>
+        </div>
         <div class="hero-content">
             <div class="hero-text">
+                <div class="hero-badge">
+                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                        <path d="M10 2L12.5 7.5L18 8.5L14 12.5L15 18L10 15.5L5 18L6 12.5L2 8.5L7.5 7.5L10 2Z" fill="currentColor"/>
+                    </svg>
+                    <span>Laboratorio Certificado</span>
+                </div>
                 <h1 class="hero-title">
                     <span class="title-line">Laboratorio</span>
                     <span class="title-line">Microbiológico</span>
-                    <span class="title-highlight">De Excelencia</span>
+                    <span class="title-line">de <span class="title-highlight">Excelencia</span></span>
                 </h1>
                 <p class="hero-subtitle">
                     Contamos con un equipo de profesionales altamente calificado,
@@ -55,35 +59,136 @@
                     <button class="btn btn-primary">
                         Nuestros Servicios
                         <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
-                            <path d="M4 10h12M10 4l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                            <path d="M4 10h12M10 4l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
                         </svg>
                     </button>
-                    <button class="btn btn-secondary">Contactar</button>
+                    <button class="btn btn-secondary">
+                        Contactar
+                    </button>
+                </div>
+                <div class="hero-stats">
+                    <div class="hero-stat">
+                        <div class="stat-value">15+</div>
+                        <div class="stat-label">Años</div>
+                    </div>
+                    <div class="hero-stat">
+                        <div class="stat-value">1000+</div>
+                        <div class="stat-label">Proyectos</div>
+                    </div>
+                    <div class="hero-stat">
+                        <div class="stat-value">50+</div>
+                        <div class="stat-label">Profesionales</div>
+                    </div>
                 </div>
             </div>
             <div class="hero-visual">
-                <div class="molecular-structure">
-                    <div class="atom atom-1"></div>
-                    <div class="atom atom-2"></div>
-                    <div class="atom atom-3"></div>
-                    <div class="atom atom-4"></div>
-                    <div class="atom atom-5"></div>
-                    <div class="bond bond-1"></div>
-                    <div class="bond bond-2"></div>
-                    <div class="bond bond-3"></div>
-                    <div class="bond bond-4"></div>
+                <div class="microscope-container">
+                    <div class="floating-element elem-1">
+                        <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="50" cy="50" r="45" fill="none" stroke="currentColor" stroke-width="2"/>
+                            <circle cx="50" cy="50" r="30" fill="none" stroke="currentColor" stroke-width="2"/>
+                            <circle cx="50" cy="50" r="15" fill="currentColor"/>
+                        </svg>
+                    </div>
+                    <div class="floating-element elem-2">
+                        <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M50 10L60 40L90 45L70 65L75 95L50 80L25 95L30 65L10 45L40 40L50 10Z" fill="currentColor"/>
+                        </svg>
+                    </div>
+                    <div class="floating-element elem-3">
+                        <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                            <rect x="20" y="30" width="60" height="50" rx="5" fill="none" stroke="currentColor" stroke-width="3"/>
+                            <path d="M35 30V20C35 15 40 10 50 10C60 10 65 15 65 20V30" fill="none" stroke="currentColor" stroke-width="3"/>
+                        </svg>
+                    </div>
+                    <div class="dna-strand">
+                        <div class="dna-ball"></div>
+                        <div class="dna-ball"></div>
+                        <div class="dna-ball"></div>
+                        <div class="dna-ball"></div>
+                        <div class="dna-ball"></div>
+                    </div>
                 </div>
             </div>
         </div>
         <div class="scroll-indicator">
+            <div class="mouse">
+                <div class="wheel"></div>
+            </div>
             <span>Scroll</span>
-            <div class="scroll-line"></div>
+        </div>
+    </section>
+
+    <!-- Cards Section -->
+    <section class="info-cards">
+        <div class="container">
+            <div class="cards-grid">
+                <div class="info-card">
+                    <div class="card-icon">
+                        <svg viewBox="0 0 50 50" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="25" cy="15" r="8" fill="currentColor"/>
+                            <path d="M10 45C10 35 16 30 25 30C34 30 40 35 40 45" fill="currentColor"/>
+                        </svg>
+                    </div>
+                    <h3 class="card-title">Profesionales</h3>
+                    <p class="card-description">Contamos con un equipo de profesionales altamente calificado.</p>
+                    <button class="card-button">
+                        MÁS INFORMACIÓN
+                    </button>
+                </div>
+
+                <div class="info-card">
+                    <div class="card-icon">
+                        <svg viewBox="0 0 50 50" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M25 5L30 20H45L33 28L38 43L25 35L12 43L17 28L5 20H20L25 5Z" fill="currentColor"/>
+                        </svg>
+                    </div>
+                    <h3 class="card-title">Política de Calidad</h3>
+                    <p class="card-description">Buscamos el mejoramiento de cada actividad que en nuestra organización se desarrolle.</p>
+                    <button class="card-button">
+                        MÁS INFORMACIÓN
+                    </button>
+                </div>
+
+                <div class="info-card">
+                    <div class="card-icon">
+                        <svg viewBox="0 0 50 50" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="25" cy="25" r="18" fill="none" stroke="currentColor" stroke-width="3"/>
+                            <path d="M15 25L22 32L35 18" stroke="currentColor" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
+                    <h3 class="card-title">Clientes</h3>
+                    <p class="card-description">Áreas en las que nuestro laboratorio ha realizado diferentes consultorías.</p>
+                    <button class="card-button">
+                        MÁS INFORMACIÓN
+                    </button>
+                </div>
+
+                <div class="info-card">
+                    <div class="card-icon">
+                        <svg viewBox="0 0 50 50" xmlns="http://www.w3.org/2000/svg">
+                            <rect x="10" y="15" width="30" height="25" rx="2" fill="none" stroke="currentColor" stroke-width="2"/>
+                            <path d="M15 15V12C15 10 17 8 25 8C33 8 35 10 35 12V15" fill="none" stroke="currentColor" stroke-width="2"/>
+                            <circle cx="25" cy="28" r="3" fill="currentColor"/>
+                        </svg>
+                    </div>
+                    <h3 class="card-title">Servicios</h3>
+                    <p class="card-description">Conozca nuestros servicios.</p>
+                    <button class="card-button">
+                        MÁS INFORMACIÓN
+                    </button>
+                </div>
+            </div>
         </div>
     </section>
 
     <!-- Stats Section -->
     <section class="stats">
         <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Nuestros Logros</span>
+                <h2 class="section-title">Experiencia que Respalda</h2>
+            </div>
             <div class="stats-grid">
                 <div class="stat-card">
                     <div class="stat-icon">
@@ -93,6 +198,7 @@
                     </div>
                     <div class="stat-number" data-target="15">0</div>
                     <div class="stat-label">Años de Experiencia</div>
+                    <div class="stat-bar"></div>
                 </div>
                 <div class="stat-card">
                     <div class="stat-icon">
@@ -102,7 +208,8 @@
                         </svg>
                     </div>
                     <div class="stat-number" data-target="50">0</div>
-                    <div class="stat-label">Profesionales</div>
+                    <div class="stat-label">Profesionales Calificados</div>
+                    <div class="stat-bar"></div>
                 </div>
                 <div class="stat-card">
                     <div class="stat-icon">
@@ -113,6 +220,7 @@
                     </div>
                     <div class="stat-number" data-target="1000">0</div>
                     <div class="stat-label">Proyectos Realizados</div>
+                    <div class="stat-bar"></div>
                 </div>
                 <div class="stat-card">
                     <div class="stat-icon">
@@ -123,6 +231,7 @@
                     </div>
                     <div class="stat-number" data-target="100">0</div>
                     <div class="stat-label">Certificaciones</div>
+                    <div class="stat-bar"></div>
                 </div>
             </div>
         </div>
@@ -142,62 +251,71 @@
                 <div class="area-card">
                     <div class="area-icon">
                         <svg viewBox="0 0 50 50" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M25 10L15 20L25 30L35 20L25 10Z" fill="currentColor"/>
-                            <path d="M25 30L15 40H35L25 30Z" fill="currentColor" opacity="0.7"/>
+                            <circle cx="25" cy="25" r="18" fill="none" stroke="currentColor" stroke-width="2"/>
+                            <circle cx="25" cy="25" r="12" fill="none" stroke="currentColor" stroke-width="2"/>
+                            <circle cx="25" cy="25" r="6" fill="currentColor"/>
                         </svg>
                     </div>
                     <h3 class="area-title">Análisis Microbiológico</h3>
-                    <p class="area-description">Control de calidad y análisis detallado de muestras microbiológicas</p>
+                    <p class="area-description">Control de calidad y análisis detallado de muestras microbiológicas con tecnología de vanguardia.</p>
+                    <div class="area-arrow">→</div>
                 </div>
                 <div class="area-card">
                     <div class="area-icon">
                         <svg viewBox="0 0 50 50" xmlns="http://www.w3.org/2000/svg">
-                            <circle cx="25" cy="25" r="15" fill="none" stroke="currentColor" stroke-width="2"/>
-                            <path d="M15 25L22 32L35 18" stroke="currentColor" stroke-width="2" fill="none"/>
+                            <circle cx="25" cy="25" r="18" fill="none" stroke="currentColor" stroke-width="2"/>
+                            <path d="M15 25L22 32L35 18" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
                         </svg>
                     </div>
                     <h3 class="area-title">Certificación y Normas</h3>
-                    <p class="area-description">Asesoramiento en certificaciones y cumplimiento normativo</p>
+                    <p class="area-description">Asesoramiento en certificaciones y cumplimiento normativo internacional.</p>
+                    <div class="area-arrow">→</div>
                 </div>
                 <div class="area-card">
                     <div class="area-icon">
                         <svg viewBox="0 0 50 50" xmlns="http://www.w3.org/2000/svg">
-                            <rect x="10" y="20" width="30" height="20" rx="2" fill="none" stroke="currentColor" stroke-width="2"/>
-                            <path d="M18 20V15C18 12 20 10 25 10C30 10 32 12 32 15V20" fill="none" stroke="currentColor" stroke-width="2"/>
+                            <path d="M15 25C15 20 18 15 25 15C32 15 35 20 35 25C35 35 25 45 25 45C25 45 15 35 15 25Z" fill="none" stroke="currentColor" stroke-width="2"/>
+                            <circle cx="25" cy="24" r="4" fill="currentColor"/>
                         </svg>
                     </div>
                     <h3 class="area-title">Seguridad Alimentaria</h3>
-                    <p class="area-description">Control y garantía de la inocuidad de productos alimenticios</p>
+                    <p class="area-description">Control y garantía de la inocuidad de productos alimenticios.</p>
+                    <div class="area-arrow">→</div>
                 </div>
                 <div class="area-card">
                     <div class="area-icon">
                         <svg viewBox="0 0 50 50" xmlns="http://www.w3.org/2000/svg">
-                            <circle cx="25" cy="20" r="5" fill="currentColor"/>
-                            <path d="M25 25V45M20 35H30M18 42H32" stroke="currentColor" stroke-width="2"/>
+                            <path d="M25 10L15 20L25 30L35 20L25 10Z" fill="none" stroke="currentColor" stroke-width="2"/>
+                            <path d="M25 30L15 40L25 50L35 40L25 30Z" fill="none" stroke="currentColor" stroke-width="2"/>
                         </svg>
                     </div>
-                    <h3 class="area-title">Investigación</h3>
-                    <p class="area-description">Desarrollo de proyectos de investigación científica aplicada</p>
+                    <h3 class="area-title">Investigación Científica</h3>
+                    <p class="area-description">Desarrollo de proyectos de investigación científica aplicada.</p>
+                    <div class="area-arrow">→</div>
                 </div>
                 <div class="area-card">
                     <div class="area-icon">
                         <svg viewBox="0 0 50 50" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M25 8L15 15L25 22L35 15L25 8Z" fill="none" stroke="currentColor" stroke-width="2"/>
-                            <path d="M15 28V35L25 42L35 35V28" fill="none" stroke="currentColor" stroke-width="2"/>
+                            <circle cx="25" cy="18" r="6" fill="none" stroke="currentColor" stroke-width="2"/>
+                            <path d="M25 24V35M15 35C15 30 19 28 25 28C31 28 35 30 35 35" stroke="currentColor" stroke-width="2" fill="none"/>
+                            <path d="M20 40H30" stroke="currentColor" stroke-width="2"/>
                         </svg>
                     </div>
                     <h3 class="area-title">Medio Ambiente</h3>
-                    <p class="area-description">Análisis ambiental y monitoreo de ecosistemas</p>
+                    <p class="area-description">Análisis ambiental y monitoreo de ecosistemas.</p>
+                    <div class="area-arrow">→</div>
                 </div>
                 <div class="area-card">
                     <div class="area-icon">
                         <svg viewBox="0 0 50 50" xmlns="http://www.w3.org/2000/svg">
-                            <circle cx="25" cy="25" r="12" fill="none" stroke="currentColor" stroke-width="2"/>
-                            <path d="M25 13V25L32 28" stroke="currentColor" stroke-width="2"/>
+                            <rect x="12" y="18" width="26" height="22" rx="2" fill="none" stroke="currentColor" stroke-width="2"/>
+                            <path d="M20 18V14C20 12 22 10 25 10C28 10 30 12 30 14V18" fill="none" stroke="currentColor" stroke-width="2"/>
+                            <circle cx="25" cy="30" r="3" fill="currentColor"/>
                         </svg>
                     </div>
-                    <h3 class="area-title">Capacitación</h3>
-                    <p class="area-description">Programas de formación y actualización profesional</p>
+                    <h3 class="area-title">Capacitación Profesional</h3>
+                    <p class="area-description">Programas de formación y actualización profesional continua.</p>
+                    <div class="area-arrow">→</div>
                 </div>
             </div>
         </div>
@@ -205,16 +323,20 @@
 
     <!-- CTA Section -->
     <section class="cta">
+        <div class="cta-background">
+            <div class="cta-shape"></div>
+        </div>
         <div class="container">
             <div class="cta-content">
                 <h2 class="cta-title">¿Listo para conocer nuestros servicios?</h2>
                 <p class="cta-description">
                     Contacta con nuestro equipo de profesionales y descubre cómo podemos ayudarte
+                    a alcanzar tus objetivos con análisis precisos y confiables.
                 </p>
-                <button class="btn btn-light">
+                <button class="btn btn-white">
                     Contactar Ahora
                     <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
-                        <path d="M4 10h12M10 4l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                        <path d="M4 10h12M10 4l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
                     </svg>
                 </button>
             </div>
@@ -226,17 +348,8 @@
         <div class="container">
             <div class="footer-content">
                 <div class="footer-brand">
-                    <div class="logo">
-                        <div class="logo-icon">
-                            <svg viewBox="0 0 50 50" xmlns="http://www.w3.org/2000/svg">
-                                <circle cx="25" cy="25" r="20" fill="none" stroke="currentColor" stroke-width="2"/>
-                                <circle cx="25" cy="25" r="12" fill="none" stroke="currentColor" stroke-width="2"/>
-                                <circle cx="25" cy="25" r="6" fill="currentColor"/>
-                            </svg>
-                        </div>
-                        <span class="logo-text">ZENG</span>
-                    </div>
-                    <p class="footer-text">Laboratorio Microbiológico de excelencia</p>
+                    <img src="img/zen_laboratorio_microbiologico-1.png" alt="ZENG Logo" class="footer-logo">
+                    <p class="footer-text">Laboratorio Microbiológico de excelencia comprometido con la calidad y precisión.</p>
                 </div>
                 <div class="footer-links">
                     <div class="footer-col">
@@ -245,6 +358,7 @@
                             <li><a href="#nosotros">Nosotros</a></li>
                             <li><a href="#servicios">Servicios</a></li>
                             <li><a href="#areas">Áreas</a></li>
+                            <li><a href="#contacto">Contacto</a></li>
                         </ul>
                     </div>
                     <div class="footer-col">
@@ -254,6 +368,29 @@
                             <li><a href="tel:+59812345678">+598 1234 5678</a></li>
                             <li>Montevideo, Uruguay</li>
                         </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h4>Síguenos</h4>
+                        <div class="social-links">
+                            <a href="#" aria-label="Facebook">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                                    <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/>
+                                </svg>
+                            </a>
+                            <a href="#" aria-label="LinkedIn">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                                    <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6zM2 9h4v12H2z"/>
+                                    <circle cx="4" cy="4" r="2"/>
+                                </svg>
+                            </a>
+                            <a href="#" aria-label="Instagram">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <rect x="2" y="2" width="20" height="20" rx="5" ry="5"/>
+                                    <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/>
+                                    <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/>
+                                </svg>
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>
